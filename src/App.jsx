@@ -17,7 +17,6 @@ function App() {
           <Route path="/niko" element={<Niko />} />
           <Route path="/villas" element={<Villas />} />
           <Route path="/gulle" element={<Gulle />} />
-
       </Routes>
     </main>
   )
