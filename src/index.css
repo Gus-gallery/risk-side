@@ -21,9 +21,9 @@
 }
 
 @theme {
-  --color-primary: #e4e4e4;
-  --color-secondary: #AFB3BD;
-  --color-backgroundsecondary: #363c49;
+  --color-primary: #95D382;
+  --color-secondary: #5EFD2E;
+  --color-backgroundsecondary: #081D00;
   --font-regular: "Regular";
   --font-medium: "Medium";
   --font-semibold: "SemiBold";
@@ -47,11 +47,22 @@ body {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #e0dddd;
-    --text-h: #f3f4f6;
-    --bg: #1d1c1c;
+    --text: #95D382;
+    --text-h: #5EFD2E;
+    --bg: #212121;
    
   }
+}
+
+:root {
+  color-scheme: dark;
+  color: #95D382;
+  background-color: #212121;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 
