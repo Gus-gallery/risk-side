@@ -16,13 +16,13 @@ const Eli = () => {
             </div>
             <div>
             <p className='mt-4 text-md text-pink-300'>
-            David is a formidable opponent in the tournament for a multitude of reasons. His calm and strategic approach to the game allows him to plan ahead and make calculated moves. 
+            Elias is an extremely dangerous adversary, as he strikes from the shadows and chooses his targets in unexpected ways. He is not afraid to attack stronger players, and often comes out on top, earning him the nickname "Ninja Hudi". 
             </p>
             <p className='mt-4 text-md text-pink-300'>
-            He has a knack for forming alliances and then breaking them at the most opportune moment, earning him the nickname "The Terminator". David's ability to read his opponents and adapt his strategy accordingly makes him a dangerous adversary.
+            Elias is a master of deception and misdirection, and uses unpredictability to his advantage. Other players might not understand his strategies, but it is clear that he is a force to be reckoned with. 
             </p>
             <p className='mt-4 text-md text-pink-300'>
-                There is, however, a potential weakness in David's game. His tendency to overthink and analyze every move can sometimes lead to missed opportunities or hesitation at critical moments. As his opponent, you can exploit this by applying pressure at unexpected times.
+            He is a wild card, not to be underestimated, and can strike at any moment, often when his opponents least wish to engage in battle. However, Elias does not always appear in the tournament, making him a bit of an enigma. 
             </p>
             </div>
         </div>

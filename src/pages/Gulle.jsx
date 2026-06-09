@@ -16,7 +16,7 @@ const Gulle = () => {
             </div>
             <div>
             <p className='mt-4 text-md text-primary'>
-            Gustav is challenging opponent, as he is known to pick fights against the stronger players in the tournament. He is not afraid to take risks and can be unpredictable in his gameplay, which can catch opponents off guard. 
+            Gustav is a challenging opponent, as he is known to pick fights against the stronger players in the tournament. He is not afraid to take risks and can be unpredictable in his gameplay, which can catch opponents off guard. 
             </p>
             <p className='mt-4 text-md text-primary'>
             He can be a bit of a wildcard, and can sometimes make bold moves that pay off in unexpected ways. However, his tendency to pick fights with strong players can also be a weakness, as it can lead to him being targeted by multiple opponents at once.
