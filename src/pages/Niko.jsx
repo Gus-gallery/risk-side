@@ -16,13 +16,13 @@ const Niko = () => {
             </div>
             <div>
             <p className='mt-4 text-md text-sky-200'>
-            David is a formidable opponent in the tournament for a multitude of reasons. His calm and strategic approach to the game allows him to plan ahead and make calculated moves. 
+            Nikolas has a unique playstyle that combines aggressive expansion with strategic diplomacy. He is known for his ability to quickly adapt to changing circumstances and for his willingness to take risks when necessary. 
             </p>
             <p className='mt-4 text-md text-sky-200'>
-            He has a knack for forming alliances and then breaking them at the most opportune moment, earning him the nickname "The Terminator". David's ability to read his opponents and adapt his strategy accordingly makes him a dangerous adversary.
-            </p>
+            He is patient and methodical in his approach to the game, but he can also be aggressive when the situation calls for it. He is not afraid to make bold moves and can be unpredictable in his gameplay, which often changes up the game completely. 
+             </p>
             <p className='mt-4 text-md text-sky-200'>
-                There is, however, a potential weakness in David's game. His tendency to overthink and analyze every move can sometimes lead to missed opportunities or hesitation at critical moments. As his opponent, you can exploit this by applying pressure at unexpected times.
+            However, his tendency to take risks can sometimes lead to overextension and vulnerability to counterattacks. As his opponent, it is important to be aware of his playstyle and to try to hit him when he is at his weakest, while also being prepared for attacks from unexpected angles. 
             </p>
             </div>
         </div>

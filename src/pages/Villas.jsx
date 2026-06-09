@@ -16,13 +16,13 @@ const Villas = () => {
             </div>
             <div>
             <p className='mt-4 text-md text-yellow-200'>
-            David is a formidable opponent in the tournament for a multitude of reasons. His calm and strategic approach to the game allows him to plan ahead and make calculated moves. 
+            Villas is a dangerous opponent, partly because of his patience and ability to read the game. He is a master of timing, often waiting for the perfect moment to strike. 
+                        </p>
+            <p className='mt-4 text-md text-yellow-200'>
+            He works patiently, building armies in corners of the world, and has nothing against being the underdog. He is a master of the long game, and can often outlast his opponents by playing defensively and waiting for them to make mistakes, which he utilizes to his own advantage.
             </p>
             <p className='mt-4 text-md text-yellow-200'>
-            He has a knack for forming alliances and then breaking them at the most opportune moment, earning him the nickname "The Terminator". David's ability to read his opponents and adapt his strategy accordingly makes him a dangerous adversary.
-            </p>
-            <p className='mt-4 text-md text-yellow-200'>
-                There is, however, a potential weakness in David's game. His tendency to overthink and analyze every move can sometimes lead to missed opportunities or hesitation at critical moments. As his opponent, you can exploit this by applying pressure at unexpected times.
+                The potential weakness in Villas' game is his tendency to be too patient and wait for the perfect moment to strike. This can sometimes lead to hesitation at critical moments. As his opponent, you can exploit this by forcing him to make quick decisions, and acting in unexpected ways to throw him off his game.
             </p>
             </div>
         </div>

@@ -22,7 +22,7 @@ const David = () => {
             He has a knack for forming alliances and then breaking them at the most opportune moment, earning him the nickname "The Terminator". David's ability to read his opponents and adapt his strategy accordingly makes him a dangerous adversary.
             </p>
             <p className='mt-4 text-md text-red-300'>
-                There is, however, a potential weakness in David's game. His tendency to overthink and analyze every move can sometimes lead to missed opportunities or hesitation at critical moments. As his opponent, you can exploit this by applying pressure at unexpected times.
+                There is however, a potential weakness in David's game. His tendency to overthink and analyze every move can sometimes lead to missed opportunities or hesitation. As his opponent, you can exploit this by applying extreme pressure at unexpected times - something Elias has a special knack for.
             </p>
             </div>
         </div>
