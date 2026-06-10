@@ -1,10 +1,33 @@
 import BilledLinks from "../components/BilledLinks"
-import { useEffect, useRef } from "react"
+import { useEffect, useRef, useState } from "react"
 
 const Landing = () => {
   const h1Ref = useRef(null)
   const finalText = "The Official Risk Tournament of World Domination"
   const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%&"
+
+   // Sæt din dato her
+   const targetDate = new Date("2026-12-05T13:00:00")
+
+   const [timeLeft, setTimeLeft] = useState(getTimeLeft())
+ 
+   function getTimeLeft() {
+     const diff = targetDate - new Date()
+     if (diff <= 0) return null
+     return {
+       days:    Math.floor(diff / (1000 * 60 * 60 * 24)),
+       hours:   Math.floor((diff / (1000 * 60 * 60)) % 24),
+       minutes: Math.floor((diff / (1000 * 60)) % 60),
+       seconds: Math.floor((diff / 1000) % 60),
+     }
+   }
+ 
+   useEffect(() => {
+     const timer = setInterval(() => {
+       setTimeLeft(getTimeLeft())
+     }, 1000)
+     return () => clearInterval(timer)
+   }, [])
 
   useEffect(() => {
     const el = h1Ref.current
@@ -38,6 +61,21 @@ const Landing = () => {
      <h2 className="font-regular text-md">
       2026 Edition
      </h2>
+
+    <div className="mt-8 flex gap-6 text-center">
+          {timeLeft ? (
+            ["days", "hours", "minutes", "seconds"].map((unit) => (
+              <div key={unit} className="flex flex-col">
+                <span className="text-4xl font-bold text-secondary">
+                  {String(timeLeft[unit]).padStart(2, "0")}
+                </span>
+                <span className="text-sm text-primary uppercase">{unit}</span>
+              </div>
+            ))
+          ) : (
+            <p className="text-secondary font-bold text-xl">The tournament has begun!</p>
+          )}
+        </div>
 
      <p className="mt-12 font-regular text-md text-primary mb-8">
       You have been granted access to a secret site, 
