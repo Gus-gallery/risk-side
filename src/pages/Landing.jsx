@@ -62,7 +62,7 @@ const Landing = () => {
       2026 Edition
      </h2>
 
-    <div className="mt-8 flex gap-6 text-center">
+    <div className="mt-12 flex gap-8 text-center">
           {timeLeft ? (
             ["days", "hours", "minutes", "seconds"].map((unit) => (
               <div key={unit} className="flex flex-col">
