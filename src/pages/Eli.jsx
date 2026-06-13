@@ -12,7 +12,7 @@ const Eli = () => {
 
         <div className='flex flex-col md:flex-row items-start gap-8 mt-8'>
             <div className='w-full md:w-300'>
-                <img src="/images/eli.png" alt="Eli" className="mt-4 border border-neutral-600 rounded-md" />
+                <img src="/risk-side/images/eli.png" alt="Eli" className="mt-4 border border-neutral-600 rounded-md" />
             </div>
             <div>
             <p className='mt-4 text-md text-pink-300'>

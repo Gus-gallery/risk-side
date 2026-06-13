@@ -12,7 +12,7 @@ const Gulle = () => {
 
         <div className='flex flex-col md:flex-row items-start gap-8 mt-8'>
             <div className='w-full md:w-300'>
-                <img src="/images/gulle.png" alt="Gulle" className="mt-4 border border-neutral-600 rounded-md" />
+                <img src="/risk-side/images/gulle.png" alt="Gulle" className="mt-4 border border-neutral-600 rounded-md" />
             </div>
             <div>
             <p className='mt-4 text-md text-primary'>
